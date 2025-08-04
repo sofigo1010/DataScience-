@@ -22,6 +22,26 @@
       "path": "modelos/cnn_deep.pt",
       "acc": 0.9862,
       "macro_f1": 0.9860538815423119
+    },
+    "mlp_simple": {
+      "path": "modelos/mlp_simple.pt",
+      "acc": 0.90494,
+      "macro_f1": 0.9042904280944659
+    },
+    "cnn_lite_aug": {
+      "path": "modelos/cnn_lite_aug.pt",
+      "acc": 0.79152,
+      "macro_f1": 0.7903366640599556
+    },
+    "cnn_deep_aug": {
+      "path": "modelos/cnn_deep_aug.pt",
+      "acc": 0.9848,
+      "macro_f1": 0.9847250838411741
+    },
+    "mlp_simple_aug": {
+      "path": "modelos/mlp_simple_aug.pt",
+      "acc": 0.8839,
+      "macro_f1": 0.8830519208247993
     }
   }
 }
