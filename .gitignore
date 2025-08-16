@@ -1,0 +1,12 @@
+# Ignora todo
+*
+
+# Permite recorrer directorios (si no, las excepciones no funcionan)
+!*/
+
+# Mantén solo estos tipos de archivo
+!*.csv
+!*.ipynb
+
+# Mantén el propio .gitignore
+!.gitignore
