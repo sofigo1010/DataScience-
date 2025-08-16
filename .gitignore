@@ -1,12 +1,22 @@
-# Ignora todo
-*
+# --- Ignorar imágenes y rasters pesados ---
 
-# Permite recorrer directorios (si no, las excepciones no funcionan)
-!*/
+# GeoTIFF / TIFF (cubre también productos CHL como *_chl.tif)
+*.tif
+*.tiff
+*.geotiff
+*.TIF
+*.TIFF
+*.GEOTIFF
+*_chl.tif
+*_CHL.tif
+*_chl.TIF
+*_CHL.TIF
 
-# Mantén solo estos tipos de archivo
-!*.csv
-!*.ipynb
 
-# Mantén el propio .gitignore
-!.gitignore
+*.rar
+# Basura de sistema
+.DS_Store
+Thumbs.db
+
+# (opcional) checkpoints de Jupyter
+.ipynb_checkpoints/
