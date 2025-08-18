@@ -1,0 +1,34 @@
+{
+  "features": [
+    "loc_mean",
+    "loc_std",
+    "loc_p90",
+    "loc_z",
+    "loc_ratio_p90mean",
+    "loc_n",
+    "global_mean",
+    "global_std",
+    "global_p90",
+    "month",
+    "sin_doy",
+    "cos_doy"
+  ],
+  "threshold": 0.10678796598429846,
+  "metrics": {
+    "AUPRC": 0.9660956681981232,
+    "AUC": 0.9961692880794702,
+    "F1@0.5": 0.8491620111731844,
+    "bestF1": 0.960655737704418,
+    "best_thr": 0.10678796598429846,
+    "Brier": 0.018673591334302707
+  },
+  "holdout_dates": [
+    "2025-07-17",
+    "2025-07-22",
+    "2025-07-24",
+    "2025-07-27",
+    "2025-08-01",
+    "2025-08-13"
+  ],
+  "model_file": "cyanopoint_model.joblib"
+}
