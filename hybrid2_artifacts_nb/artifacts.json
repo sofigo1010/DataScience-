@@ -1,0 +1,27 @@
+{
+  "columns": [
+    "pix_lag_last",
+    "pix_lag_mean",
+    "pix_lag_max",
+    "pix_lag_slope",
+    "idx_wf",
+    "doy_sin",
+    "doy_cos",
+    "locR3_mean",
+    "locR3_std",
+    "locR3_p90",
+    "locR7_mean",
+    "locR7_std",
+    "locR7_p90",
+    "locR15_mean",
+    "locR15_std",
+    "locR15_p90"
+  ],
+  "ap_holdout": 0.11844191725745179,
+  "auc_holdout": 0.65361168598234,
+  "brier_holdout": 0.05552946307659814,
+  "thr_operativo_F2": 0.057923255918655145,
+  "thr_alerta": 0.05742393665348739,
+  "pi_train": 0.24593254374820703,
+  "pi_test": 0.05919247353978832
+}

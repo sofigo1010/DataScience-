@@ -1,0 +1,55 @@
+{
+  "features": [
+    "month",
+    "sin_doy",
+    "cos_doy",
+    "idx_wf",
+    "lag1_pix",
+    "lag2_pix",
+    "lag3_pix",
+    "lag1_loc_mean",
+    "lag2_loc_mean",
+    "lag3_loc_mean",
+    "lag1_loc_std",
+    "lag2_loc_std",
+    "lag3_loc_std",
+    "lag1_loc_p90",
+    "lag2_loc_p90",
+    "lag3_loc_p90",
+    "lag1_loc_pct",
+    "lag2_loc_pct",
+    "lag3_loc_pct",
+    "lag1_loc_n",
+    "lag2_loc_n",
+    "lag3_loc_n",
+    "lag_pix_mean",
+    "lag_pix_std",
+    "lag_pix_min",
+    "lag_pix_max"
+  ],
+  "lags": 3,
+  "win": 3,
+  "holdout_dates": [
+    "2025-07-17 00:00:00",
+    "2025-07-22 00:00:00",
+    "2025-07-24 00:00:00",
+    "2025-07-27 00:00:00",
+    "2025-08-01 00:00:00",
+    "2025-08-13 00:00:00"
+  ],
+  "best_params": {
+    "n_estimators": 300,
+    "max_depth": null,
+    "min_samples_leaf": 1
+  },
+  "threshold_bestF2": 0.008682627735356527,
+  "metrics_holdout": {
+    "auprc": 0.15501788156014254,
+    "auc": 0.6034726821192052,
+    "brier": 0.10821375836494417,
+    "f1@0.5": 0.0,
+    "bestF2": 0.4345670852610707,
+    "P@bestF2": 0.14466446644664466,
+    "R@bestF2": 0.8708609271523179
+  }
+}
