@@ -1,0 +1,87 @@
+{
+  "columns": [
+    "pix_lag_last",
+    "pix_lag_mean",
+    "pix_lag_max",
+    "pix_lag_slope",
+    "pix_lag_bin_sum",
+    "pix_lag_bin_frac",
+    "days_since_ex",
+    "doy_sin",
+    "doy_cos",
+    "r_norm",
+    "c_norm",
+    "rc_center",
+    "locR3_mean",
+    "locR3_std",
+    "locR3_p90",
+    "locR3_frac_ge",
+    "locR3_mean_slope",
+    "locR3_p90_slope",
+    "locR7_mean",
+    "locR7_std",
+    "locR7_p90",
+    "locR7_frac_ge",
+    "locR7_mean_slope",
+    "locR7_p90_slope",
+    "locR11_mean",
+    "locR11_std",
+    "locR11_p90",
+    "locR11_frac_ge",
+    "locR11_mean_slope",
+    "locR11_p90_slope",
+    "idx_wf_pct12",
+    "idx_wf_pct15",
+    "idx_wf_pct20",
+    "idx_wf_p95",
+    "idx_wf_mlog",
+    "pop_pi_week"
+  ],
+  "pi_train_used": 0.6990127527334054,
+  "metrics_calibrated": {
+    "AUPRC": 0.8755279027073039,
+    "AUC": 0.8744953648529418,
+    "Brier": 0.2889483144410163,
+    "thr_bestF2": 0.7274510706103533,
+    "prec_at_recalls": {
+      "0.6": {
+        "thr": 0.8235438219141987,
+        "P": 0.9036597714451035,
+        "R": 0.6121509064184223
+      },
+      "0.7": {
+        "thr": 0.7854918624994798,
+        "P": 0.8896415814755512,
+        "R": 0.7077902988731014
+      },
+      "0.8": {
+        "thr": 0.729815105485368,
+        "P": 0.8000968992248062,
+        "R": 0.8091131798138168
+      }
+    }
+  },
+  "metrics_calibrated_pc": {
+    "AUPRC": 0.8602878295580809,
+    "AUC": 0.844534183562663,
+    "Brier": 0.4204530103290299,
+    "thr_bestF2": 0.0004354381686058099,
+    "prec_at_recalls": {
+      "0.6": {
+        "thr": 0.004387213490427785,
+        "P": 0.9061440990128187,
+        "R": 0.6026457618814307
+      },
+      "0.7": {
+        "thr": 0.0029326184665999545,
+        "P": 0.8368918445922297,
+        "R": 0.702890739833415
+      },
+      "0.8": {
+        "thr": 0.002587766427298272,
+        "P": 0.7205831903945111,
+        "R": 0.8233219010289073
+      }
+    }
+  }
+}

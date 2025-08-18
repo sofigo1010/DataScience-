@@ -4,24 +4,84 @@
     "pix_lag_mean",
     "pix_lag_max",
     "pix_lag_slope",
-    "idx_wf",
+    "pix_lag_bin_sum",
+    "pix_lag_bin_frac",
+    "days_since_ex",
     "doy_sin",
     "doy_cos",
+    "r_norm",
+    "c_norm",
+    "rc_center",
     "locR3_mean",
     "locR3_std",
     "locR3_p90",
+    "locR3_frac_ge",
+    "locR3_mean_slope",
+    "locR3_p90_slope",
     "locR7_mean",
     "locR7_std",
     "locR7_p90",
+    "locR7_frac_ge",
+    "locR7_mean_slope",
+    "locR7_p90_slope",
     "locR15_mean",
     "locR15_std",
-    "locR15_p90"
+    "locR15_p90",
+    "locR15_frac_ge",
+    "locR15_mean_slope",
+    "locR15_p90_slope",
+    "idx_wf_pct12",
+    "idx_wf_pct15",
+    "idx_wf_pct20",
+    "idx_wf_p95",
+    "idx_wf_mlog",
+    "pop_pi_week"
   ],
-  "ap_holdout": 0.11844191725745179,
-  "auc_holdout": 0.65361168598234,
-  "brier_holdout": 0.05552946307659814,
-  "thr_operativo_F2": 0.057923255918655145,
-  "thr_alerta": 0.05742393665348739,
-  "pi_train": 0.24593254374820703,
-  "pi_test": 0.05919247353978832
+  "pi_train_used": NaN,
+  "metrics_calibrated": {
+    "AUPRC": 0.338407084431338,
+    "AUC": 0.5376682859881492,
+    "Brier": 0.23428293031297653,
+    "thr_bestF2": 0.23695419144575827,
+    "prec_at_recalls": {
+      "0.6": {
+        "thr": 0.2985589897269709,
+        "P": 0.4049586776859504,
+        "R": 0.6490066225165563
+      },
+      "0.7": {
+        "thr": 0.2582129682261909,
+        "P": 0.3865814696485623,
+        "R": 0.8013245033112583
+      },
+      "0.8": {
+        "thr": 0.2582129682261909,
+        "P": 0.3865814696485623,
+        "R": 0.8013245033112583
+      }
+    }
+  },
+  "metrics_calibrated_pc": {
+    "AUPRC": 0.33281500402183256,
+    "AUC": 0.5220596244336008,
+    "Brier": 0.32996598187894466,
+    "thr_bestF2": 0.0003906600885473562,
+    "prec_at_recalls": {
+      "0.6": {
+        "thr": 0.000760068041936759,
+        "P": 0.361671469740634,
+        "R": 0.8311258278145696
+      },
+      "0.7": {
+        "thr": 0.000760068041936759,
+        "P": 0.361671469740634,
+        "R": 0.8311258278145696
+      },
+      "0.8": {
+        "thr": 0.000760068041936759,
+        "P": 0.361671469740634,
+        "R": 0.8311258278145696
+      }
+    }
+  }
 }
